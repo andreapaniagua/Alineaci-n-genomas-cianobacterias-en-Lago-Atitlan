@@ -1,0 +1,187 @@
+#NEXUS
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=9;
+	TAXLABELS
+		'Mougeotia sp(1>402)'
+		'Coelastrum sp(1>257)'
+		'Pediastrum boryanum(1>410)'
+		'Limnoraphis robusta(1>368)'
+		'Mycoris Aeruginosa(1>471)'
+		'Aphanizomeon(1>81)'
+		'Arabidopsis thaliana(1>485)'
+		'Homo Sapiens(1>551)'
+		'Drosophila melanogaster(1>522)'
+		;
+END;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=644;
+	FORMAT datatype=protein missing=. gap=- interleave;
+MATRIX
+'Mougeotia sp(1>402)'             --------------------------------------------------
+'Coelastrum sp(1>257)'            --------------------------------------------------
+'Pediastrum boryanum(1>410)'      -----------------LTYYTPDYVVKDTDILAAFRMTPQPGVPAEECG
+'Limnoraphis robusta(1>368)'      --------------------------------------------------
+'Mycoris Aeruginosa(1>471)'       MVQAKSKGFQAGVKDYRLTYYTPDYTPKDTDLLACFRVTPQPGVPPEEAG
+'Aphanizomeon(1>81)'              --------------------------------------------------
+'Arabidopsis thaliana(1>485)'     ------MVETSIDMEEGTLEIGMEYRTVSGVAGPLVILDKVKGPKYQEIV
+'Homo Sapiens(1>551)'             ------------------------------------------MPSETPQA
+'Drosophila melanogaster(1>522)'  --------------------------------------MPQPKPYERPAD
+
+'Mougeotia sp(1>402)'             --LLGDNKVRAVAMSATDGLMRGMDVID--------------TG-APLSV
+'Coelastrum sp(1>257)'            --------------------------------------------------
+'Pediastrum boryanum(1>410)'      AAVAAESSTGTWTTVWTDGLTSLDRYKG--------------RC-YDIEP
+'Limnoraphis robusta(1>368)'      ------------------------------------------RC-YDIEP
+'Mycoris Aeruginosa(1>471)'       AAVAAESSTGTWTTVWTDNLTDLDRYKG--------------RC-YDIEP
+'Aphanizomeon(1>81)'              --------------------------------------------------
+'Arabidopsis thaliana(1>485)'     NIRLGDGSTRRGQVLEVDGEKAVVQVFEGTSGIDNKFTTVQFTG-EVLKT
+'Homo Sapiens(1>551)'             EVGPTGCPHRSGPHSAKGSLEKGSPEDKEAKEPLWIRPDAPSRCTWQLGR
+'Drosophila melanogaster(1>522)'  FIDPGKPSKCKWHLG-TAE-----------------------KS-PHIHR
+
+'Mougeotia sp(1>402)'             PVGEATLG-----RIFNVLGEPVDNLGPVNNKTTLPIHRSAPAFTQLDTK
+'Coelastrum sp(1>257)'            --------------------------------------------------
+'Pediastrum boryanum(1>410)'      VAGEDNQY-----IAYVAYPIDLFEEGSVTNLFTSIVGNVFGFKALRALR
+'Limnoraphis robusta(1>368)'      VPGEDNQY-----ICFIAYPLDLFEEGSVTNLLTSLVGNVFGFKALRALR
+'Mycoris Aeruginosa(1>471)'       VPNEDNQF-----FCFVAYPLDLFEEGSVTNILTSIVGNVFGFKALRGLR
+'Aphanizomeon(1>81)'              --------------------------------------------------
+'Arabidopsis thaliana(1>485)'     PVSLDMLG-----RIFNGSGKPIDNGPPILPEAYLDISGSSINPSERTYP
+'Homo Sapiens(1>551)'             PASESPHHHTPPAKSPKILPDILKKIGDTPMVRINKIGKKFGLKCELLAK
+'Drosophila melanogaster(1>522)'  GIAHRQQ----------ITPNILEVIGCTPLVKLNNIPASDGIECEMYAK
+
+'Mougeotia sp(1>402)'             LSIFETGIKVVDLLAPYRRG------GKIGLFGGAGVGKTVLIMELINNI
+'Coelastrum sp(1>257)'            --------------------------------------------------
+'Pediastrum boryanum(1>410)'      LEDLRIPPAYVKTFVGPPHGIQVER-DKLNKYGRGLLGCTIKPKLGLSAK
+'Limnoraphis robusta(1>368)'      LEDLRIPIAYLKTFQGPPHGITVER-DKLNKYGRPLLGCTIKPKLGLSAK
+'Mycoris Aeruginosa(1>471)'       LEDIRFPVALIKTFQGPPHGITVER-DKLNKYGRPLLGCTIKPKLGLSAK
+'Aphanizomeon(1>81)'              --------------------------------------------------
+'Arabidopsis thaliana(1>485)'     EEMIQTGISTIDVMNSIARGQKIPLFSAAGLPHNEIAAQICRQAGLVKRL
+'Homo Sapiens(1>551)'             CEFFNAG-GSVKDRISLRMIEDAER-DGTLKPGDTIIEPTSGNTGIGLAL
+'Drosophila melanogaster(1>522)'  CEFLNPG-GSVKDRIGYRMVQDAEE-QGLLKPGYTIIEPTSGNTGIGLAM
+
+'Mougeotia sp(1>402)'             AKAHGGVSVFAGVGERTRE---------GNDL----------------YI
+'Coelastrum sp(1>257)'            ------------------------------NVNSQP------------FM
+'Pediastrum boryanum(1>410)'      NYGRAVYECLRGGLDFTKD---------DENVNSQP------------FM
+'Limnoraphis robusta(1>368)'      NYGRAVYECLRGGLDFTKD---------DENINSQP------------FM
+'Mycoris Aeruginosa(1>471)'       NYGRAVYECLRGGLDFTKD---------DENINSQP------------FM
+'Aphanizomeon(1>81)'              --------------------------------------------------
+'Arabidopsis thaliana(1>485)'     EKTENLIQEDHGEDNFAIV-----FAAMGVNMETAQ------------FF
+'Homo Sapiens(1>551)'             AAAVRGYRCIIVMPEKMSSEKVDVLRALGAEIVRTPTNARFDSPESHVGV
+'Drosophila melanogaster(1>522)'  ACAVKGYKCIIVMPEKMSNEKVSALRTLGAKIIRTPTEAAYDSPEGLIYV
+
+'Mougeotia sp(1>402)'             EMKESKVINEENIGESKVALVYGQMNEPPGARMRVGLTALTMAEYFRDIN
+'Coelastrum sp(1>257)'            RWRDRFLFVAEACYKAQ-----SETGEIKGHYLNA--TAGTCEEMLKRAQ
+'Pediastrum boryanum(1>410)'      RWRDRFLFVAEAIYKAQ-----AETGEIKGHYLNA--TAGTCEEMLKRAQ
+'Limnoraphis robusta(1>368)'      RWRDRFLFVQEAIEKAQ-----AETGEVKGHYLNV--TAPTCEEMLERAE
+'Mycoris Aeruginosa(1>471)'       RWRDRFLFVQEAIVKSQ-----AETNEVKGHYLNV--TAPTCEQMMQRAE
+'Aphanizomeon(1>81)'              --------------------------------------------------
+'Arabidopsis thaliana(1>485)'     K-RD----FEENGSMERVTLFLNLANDPTIERIITPRIALTTAEYLA-YE
+'Homo Sapiens(1>551)'             AWRLKNEIPNSHILDQY-----RNASNPLAHY------DTTADEILQQCD
+'Drosophila melanogaster(1>522)'  AQQLQRETPNSIVLDQY-----RNAGNPLAHY------DGTAAEILWQLD
+
+'Mougeotia sp(1>402)'             KQDVLLFIDN-IFRFVQAGSEVSALLGRMPS-AVGYQPTLSTEMGSLQER
+'Coelastrum sp(1>257)'            CAKELGIPII-MHDYLTGGFTANTSLASYCR-DQGLLLHIHRAMHAVIDR
+'Pediastrum boryanum(1>410)'      CAKELGVPIV-MHDYLTGGFTANTSLAIYCR-DHGLLLHIHRAMHAVIDR
+'Limnoraphis robusta(1>368)'      FAKELKTPII-MHDYLTGGFTANTTLAKWCR-RNGILLHIHRAMHAVIDR
+'Mycoris Aeruginosa(1>471)'       FAAEIKTPII-MHDYLTGGFTANTTLAKFCR-DKGLLLHIHRAMHAVIDR
+'Aphanizomeon(1>81)'              --------------------------------------------------
+'Arabidopsis thaliana(1>485)'     CGKHVLVILTDMSSYADALRFCCSRRSSWKTWISGVYYTDLATIYERAGR
+'Homo Sapiens(1>551)'             GKLDMLVASVGTGGTITGIARKLKEKCPGCR-IIGVDPEGSILAEPEELN
+'Drosophila melanogaster(1>522)'  NKVDMIVVSAGTAGTISGIGRKIKEQVPSCQ-IVGVDPYGSILARPAELN
+
+'Mougeotia sp(1>402)'             ITST------KEGS--------ITSIQAVYVPADDLTDPAPATTFAH---
+'Coelastrum sp(1>257)'            QRNH------GIHF--------RVLAKTLRMSGGD-----------H---
+'Pediastrum boryanum(1>410)'      QRNH------GIHF--------RVLAKALRMSGGD-----------H---
+'Limnoraphis robusta(1>368)'      QKNH------GIHF--------RVLAKCLRMSGGD-----------H---
+'Mycoris Aeruginosa(1>471)'       QKNH------GIHF--------RVLAKCLRLSGGD-----------H---
+'Aphanizomeon(1>81)'              --------------------------------------------------
+'Arabidopsis thaliana(1>485)'     IEGR-------KGS--------ITQIPILTMPNDDITHPTPDLTGYI---
+'Homo Sapiens(1>551)'             QTEQTTYEVEGIGYDFIPTVLDRTVVDKWFKSNDEEAFTFARMLIAQEGL
+'Drosophila melanogaster(1>522)'  KTDVQFYEVEGIGYDFPPTVFDDTVVDVWTKIGDSDCFPMSRRLNAEEGL
+
+'Mougeotia sp(1>402)'             LDATTVLSRGLAAKGIYPAVDPLDSTSTMLQPWI-VGT---EHYE-----
+'Coelastrum sp(1>257)'            LHSGTVVGKLEGEREVTLGFVDLMRDDYIEKDRS-RGI---YFTQ-----
+'Pediastrum boryanum(1>410)'      LHSGTVVGKLEGEREVTLGFVDLMRDDYIEKDRS-RGI---YFTQ-----
+'Limnoraphis robusta(1>368)'      LHSGTVVGKLEGEKGITMGFVDLMREDHIEQDRD-RGI---YFTQ-----
+'Mycoris Aeruginosa(1>471)'       LHSGTVVGKLEGERGITMGFVDLMREDYVEEDRA-RGI---FFTQ-----
+'Aphanizomeon(1>81)'              --------------------------------------------------
+'Arabidopsis thaliana(1>485)'     TEGQIYIDRQLHNRQIYPPINVLPSLSRLMKSAIGEGMTRKDHSDVSNQL
+'Homo Sapiens(1>551)'             LCGGSAGSTVAVAVKAAQELQEGQRCVVILPDSV-RNYMTKFLSD-----
+'Drosophila melanogaster(1>522)'  LCGGSSGGAMHAALEHARKLKKGQRCVVILPDGI-RNYMTKFVSD-----
+
+'Mougeotia sp(1>402)'             --------IAQAVKETL---QRYKELQDIIAI------------------
+'Coelastrum sp(1>257)'            --------DWCSLAGTM---PVASGGIHVWHM------------------
+'Pediastrum boryanum(1>410)'      --------DWCSMSGVM---PVASGGIHVWHM------------------
+'Limnoraphis robusta(1>368)'      --------DWASMPGVM---PVASGGIHIWHM------------------
+'Mycoris Aeruginosa(1>471)'       --------DYASLPGVM---PVASGGIHVWHM------------------
+'Aphanizomeon(1>81)'              --------------------------------------------------
+'Arabidopsis thaliana(1>485)'     YANYAIGKDVQAMKAVVGEEALSSEDLLYLEF------------------
+'Homo Sapiens(1>551)'             --------RWMLQKGFLKEEDLTEKKPWWWHLRVQELGLSAPLTVL----
+'Drosophila melanogaster(1>522)'  --------NWMEARNFKE--PVNEHGHWWWSLAIAELELPAPPVILKSDA
+
+'Mougeotia sp(1>402)'             --------------LGL-----DELSE----------EDRLVVA--RARK
+'Coelastrum sp(1>257)'            --------------PAL-----VEIFG----------DDACLQF--GGGT
+'Pediastrum boryanum(1>410)'      --------------PAL-----VEIFG----------DDACLQF--GGGT
+'Limnoraphis robusta(1>368)'      --------------PAL-----VEIFG----------DDSCLQF--GGGT
+'Mycoris Aeruginosa(1>471)'       --------------PAL-----VEIFG----------DDSCLQF--GGGT
+'Aphanizomeon(1>81)'              --------------------------G----------DDSVLQF--GGGT
+'Arabidopsis thaliana(1>485)'     ----------------------LDKFE----------RKFVMQGAYDTRN
+'Homo Sapiens(1>551)'             --------------PTITCGHTIEILREKGFDQAPVVDEAGVIL--GMVT
+'Drosophila melanogaster(1>522)'  TVGEAIALMKKHRVDQL-----PVVDQ----------DDGSVLGVVGQET
+
+'Mougeotia sp(1>402)'             VERFLSQPFFVAEVFTGSPGKYVSLAESIK----G-------------FQ
+'Coelastrum sp(1>257)'            ----LGHPWGNA---PGAVANRVALEACTQARNEG-------------RD
+'Pediastrum boryanum(1>410)'      ----LGHPWGNA---PGAVANRVALEACTQAR------------------
+'Limnoraphis robusta(1>368)'      ----LGHPWGNA---PGATANRVALEACIQARNEG-------------RN
+'Mycoris Aeruginosa(1>471)'       ----LGHPWGNA---PGATANRVALEACIQARNEG-------------RS
+'Aphanizomeon(1>81)'              ----LGHPWGNA---PGATANRVALEAVVQARNEG-------------RN
+'Arabidopsis thaliana(1>485)'     IFQSLDLAWTLLRIFPRELLHRIPAKTLDQFYSRD-------------ST
+'Homo Sapiens(1>551)'             LGNMLSS-LLAGKVQPSDQVGKVIYKQFKQIRLTDTLGRLSHILEMDHFA
+'Drosophila melanogaster(1>522)'  ----LITQIVSMNRQQSDPAIKALNKRVIRLNESEILGKLARVLEVDPSV
+
+'Mougeotia sp(1>402)'             LILQGE-----------------------------LDKL-----
+'Coelastrum sp(1>257)'            LAREGGDVIRSACKWSPELAAACEV-------------------
+'Pediastrum boryanum(1>410)'      --------------------------------------------
+'Limnoraphis robusta(1>368)'      LFREGGDVIREAAK------------------------------
+'Mycoris Aeruginosa(1>471)'       LAREGNDVIREACRWSPELAAACELWKEIKFEFEAMDTL-----
+'Aphanizomeon(1>81)'              LAREGNDIIREAAKWSPELAVACELWKEIKFEFEAMDTV-----
+'Arabidopsis thaliana(1>485)'     S-------------------------------------------
+'Homo Sapiens(1>551)'             LVVHEQIQYHSTGKSSQRQMVFGVVTAIDLLNFVAAQERDQK--
+'Drosophila melanogaster(1>522)'  LILGKNPAGKVELKALATKLDVTTFIAAGKQKPKANGTTNGGSH
+
+;
+END;
+BEGIN DISTANCES;
+	FORMAT TRIANGLE=LOWER NODIAGONAL;
+	MATRIX
+'Mougeotia sp'
+'Coelastrum sp'	0.823529
+'Pediastrum boryanum'	0.823529	0.00000
+'Limnoraphis robusta'	0.794118	0.0882353	0.0882353
+'Mycoris Aeruginosa'	0.794118	0.0882353	0.0882353	0.00000
+Aphanizomeon	0.823529	0.147059	0.147059	0.0882353	0.0882353
+'Arabidopsis thaliana'	0.911765	0.823529	0.823529	0.823529	0.823529	0.794118
+'Homo Sapiens'	0.882353	0.764706	0.764706	0.794118	0.794118	0.794118	0.882353
+'Drosophila melanogaster'	0.852941	0.823529	0.823529	0.794118	0.794118	0.794118	0.911765	0.735294;
+END;
+BEGIN TREES;
+TRANSLATE 1 'Mycoris Aeruginosa',
+	2 'Limnoraphis robusta',
+	3 'Pediastrum boryanum',
+	4 'Coelastrum sp',
+	5 Aphanizomeon,
+	6 'Drosophila melanogaster',
+	7 'Homo Sapiens',
+	8 'Mougeotia sp',
+	9 'Arabidopsis thaliana',
+	10 'Mycoris Aeruginosa_1',
+	11 'Limnoraphis robusta_1',
+	12 'Pediastrum boryanum_1',
+	13 'Coelastrum sp_1',
+	14 Aphanizomeon_1,
+	15 'Drosophila melanogaster_1',
+	16 'Homo Sapiens_1',
+	17 'Mougeotia sp_1',
+	18 'Arabidopsis thaliana_1';
+TREE AtitlanNeighbor=(((1:0.00000,2:0.00000):0.0275879,(3:0.00000,4:0.00000):0.0606474):0.0166432,5:0.0520597,(((6:0.376050,7:0.359244):0.0578181,8:0.442710):0.0108509,9:0.459753):0.302734);
+TREE Tree2=(((10:0.00000,11:0.00000):0.0275879,(12:0.00000,13:0.00000):0.0606474):0.0166432,14:0.0520597,(((15:0.376050,16:0.359244):0.0578181,17:0.442710):0.0108509,18:0.459753):0.302734);
+END;
